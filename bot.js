@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const facts = require('cat-facts');
 const client = new Discord.Client();
 
-client.login("MzQzMTUwNzE5NjA1NDA3NzU3.DGaAqQ.tZX6S9ttJLzUo4dqNfqewWXZGs4");
+client.login("MzQzMTYyNDM5NDY4MzE4NzIw.DGaKcA.2XSrvdw1s7OWI8IGLN1UgQmARho");
 
 client.on("ready", () => {
   console.log("I am ready!");
