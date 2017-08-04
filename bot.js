@@ -13,6 +13,6 @@ client.on("message", (message) => {
     message.channel.send(facts.random());
     setInterval(() => {
         message.channel.send(facts.random());
-    }, 5000);
+    }, 300000);
   }
 });
