@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
 const facts = require('cat-facts');
-const hook = new Discord.WebhookClient('343164815356985345', 'w94cuJjigPzQLVClM3nDsNpiOwuuDtlEIn-0JpKSQU4uj-WrXuPYS7Cl8Wc1Fzw7LoVe');
+const hook = new Discord.WebhookClient('343165371626553355', 's6SIzYAddOXHCOCmDippF-ZiQDTVJLm7qbx1ZhD4EPIbxc7uI0dxQRYoNU7OQovMx-_B');
 
+hook.send(facts.random());
 setInterval(() => {
     hook.send(facts.random());
 }, 300000);
