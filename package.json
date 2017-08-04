@@ -2,9 +2,14 @@
   "name": "discord_bot_test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "8.1.4",
+    "npm": "5.0.3"
   },
   "keywords": [],
   "author": "",
