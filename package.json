@@ -17,6 +17,7 @@
   "dependencies": {
     "cat-facts": "^1.0.2",
     "discord.js": "^11.1.0",
-    "dotenv": "^4.0.0"
+    "dotenv": "^4.0.0",
+    "giphy-api": "^1.2.6"
   }
 }
