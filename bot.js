@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-	console.log(`Server running at http://${hostname}:${port}`)
+	console.log(`Server running on port ${port}`)
 });
 
 const Discord = require('discord.js');
